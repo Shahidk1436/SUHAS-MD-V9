@@ -47,11 +47,11 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['🎁 𝘼𝙙𝙙 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 𝙃𝙚𝙧𝙚.🎁']
+const ownerNumber = ['923318794921']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('7YNyyTbY#f85vMK0P_l0idbXk_XwUzj0PbzZ5YPfx270oBhPwQCs')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
